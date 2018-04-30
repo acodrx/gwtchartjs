@@ -7,7 +7,7 @@ package com.github.gwtchartjs.client.core;
  * <li>true: Step-before Interpolation (eq. 'before')
  * <li>'before': Step-before Interpolation
  * <li>'after': Step-after Interpolation
- * <ul>
+ * </ul>
  * If the steppedLine value is set to anything other than false, lineTension
  * will be ignored.
  */

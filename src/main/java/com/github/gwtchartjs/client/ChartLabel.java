@@ -19,7 +19,7 @@ public class ChartLabel {
 
   /**
    * Color of text. Default: '#666'<br>
-   * @see {@link Colors}
+   * {@link com.github.gwtchartjs.client.core.Colors}
    */
   public String fontColor;
 

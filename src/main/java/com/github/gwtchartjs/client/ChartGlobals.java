@@ -30,7 +30,7 @@ public class ChartGlobals {
    */
   public ChartAnimation animation;
 
-  /** @see {@link ChartGridLines } */
+  /** {@link com.github.gwtchartjs.client.ChartGridLines } */
   public ChartGridLines gridLines;
 
   // public Padding????? padding;

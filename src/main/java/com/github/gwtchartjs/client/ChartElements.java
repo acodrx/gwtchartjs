@@ -21,7 +21,7 @@ public class ChartElements {
   /**
    * Point style. Default 'circle'<br>
    * 
-   * @see {@link PointStyles}
+   * {@link com.github.gwtchartjs.client.core.PointStyles}
    */
   public String pointStyle;
 

@@ -28,14 +28,14 @@ public class ChartDataSetBar<T> extends ChartDataSet<T> {
   /**
    * The fill color under the line. <br>
    * 
-   * @see {@link com.github.gwtchartjs.client.core.Colors}
+   * {@link com.github.gwtchartjs.client.core.Colors}
    */
   public Object backgroundColor;
 
   /**
    * The color of the line. <br>
    * 
-   * @see {@link com.github.gwtchartjs.client.core.Colors}
+   * {@link com.github.gwtchartjs.client.core.Colors}
    */
   public String borderColor;
 
@@ -47,7 +47,7 @@ public class ChartDataSetBar<T> extends ChartDataSet<T> {
    * This setting is used to avoid drawing the bar stroke at the base of the fill. In general, this does not
    * need to be changed except when creating chart types that derive from a bar chart.
    * 
-   * @see {@link com.github.gwtchartjs.client.core.Position}
+   * {@link com.github.gwtchartjs.client.core.Position}
    */
   public String borderSkipped;
 

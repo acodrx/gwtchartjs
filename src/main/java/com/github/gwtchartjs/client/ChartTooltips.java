@@ -21,7 +21,7 @@ public class ChartTooltips {
 
   /**
    * Sets which elements appear in the tooltip. more....Default: 'nearest'<br>
-   * @see {@link TooltipInteraction}
+   * {@link TooltipInteraction}
    */
   public String mode;
 
@@ -33,7 +33,7 @@ public class ChartTooltips {
 
   /**
    * The mode for positioning the tooltip. more... Default: 'average'<br>
-   * @see {@link TooltipPosition}
+   * {@link TooltipPosition}
    */
   public String position;
 

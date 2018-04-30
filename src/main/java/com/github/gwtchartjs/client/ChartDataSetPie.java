@@ -23,14 +23,14 @@ public class ChartDataSetPie<T> extends ChartDataSet<T> {
   /**
    * The fill color under the line. <br>
    * 
-   * @see {@link com.github.gwtchartjs.client.core.Colors}
+   * {@link com.github.gwtchartjs.client.core.Colors}
    */
   public JsArray<String> backgroundColor;
 
   /**
    * The color of the line. <br>
    * 
-   * @see {@link com.github.gwtchartjs.client.core.Colors}
+   * {@link com.github.gwtchartjs.client.core.Colors}
    */
   public JsArray<String> borderColor;
 

@@ -12,7 +12,7 @@ public class ChartLegend {
   /**
    * Position of the legend. Default: 'top'<br>
    * 
-   * @see {@link Position}
+   * {@link com.github.gwtchartjs.client.core.Position}
    */
   public String position;
 

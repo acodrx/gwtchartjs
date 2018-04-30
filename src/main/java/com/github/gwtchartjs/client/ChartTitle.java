@@ -15,7 +15,7 @@ public class ChartTitle {
   /**
    * Position of the legend. Default: 'top'<br>
    * 
-   * @see {@link Position}
+   * {@link com.github.gwtchartjs.client.core.Position}
    */
   public String position;
 
@@ -28,7 +28,7 @@ public class ChartTitle {
   /**
    * Color of text. Default: '#666'<br>
    * 
-   * @see {@link Colors}
+   * {@link com.github.gwtchartjs.client.core.Colors}
    */
   public String fontColor;
 
@@ -41,7 +41,7 @@ public class ChartTitle {
   /**
    * Height of an individual line of text. Number/String. Default: 1.2<br>
    * 
-   * @see see <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/line-height">MDN</a>
+   * See <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/line-height">MDN</a>
    */
   public Object lineHeight;
 

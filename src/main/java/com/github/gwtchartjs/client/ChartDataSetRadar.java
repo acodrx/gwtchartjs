@@ -19,14 +19,14 @@ public class ChartDataSetRadar<T> extends ChartDataSet<T> {
   /**
    * The fill color under the line. <br>
    * 
-   * @see {@link com.github.gwtchartjs.client.core.Colors}
+   * {@link com.github.gwtchartjs.client.core.Colors}
    */
   public String backgroundColor;
 
   /**
    * The color of the line. <br>
    * 
-   * @see {@link com.github.gwtchartjs.client.core.Colors}
+   * {@link com.github.gwtchartjs.client.core.Colors}
    */
   public String borderColor;
 
@@ -36,7 +36,7 @@ public class ChartDataSetRadar<T> extends ChartDataSet<T> {
   /**
    * Length and spacing of dashes.<br>
    * 
-   * @see <a href=
+   * <a href=
    *      "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash">MDN</a>
    */
   public JsArray<Integer> borderDash;
@@ -44,7 +44,7 @@ public class ChartDataSetRadar<T> extends ChartDataSet<T> {
   /**
    * Offset for line dashes.<br>
    * 
-   * @see <a href=
+   * <a href=
    *      "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineDashOffset">MDN</a>
    */
   public Integer borderDashOffset;
@@ -52,14 +52,14 @@ public class ChartDataSetRadar<T> extends ChartDataSet<T> {
   /**
    * Cap style of the line.<br>
    * 
-   * @see <a href= "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineCap">MDN</a>
+   * <a href= "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineCap">MDN</a>
    */
   public String borderCapStyle;
 
   /**
    * Line joint style.<br>
    * 
-   * @see <a href=
+   * <a href=
    *      "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineJoin">MDN</a>
    */
   public String borderJoinStyle;
@@ -93,7 +93,7 @@ public class ChartDataSetRadar<T> extends ChartDataSet<T> {
   /**
    * Style of the point. String/String[]/Image/Image[]
    * 
-   * @see @link com.github.gwtchartjs.client.core.PointStyles}
+   * {@link com.github.gwtchartjs.client.core.PointStyles}
    */
   public Object pointStyle;
 

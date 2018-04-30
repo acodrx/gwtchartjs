@@ -34,7 +34,7 @@ import jsinterop.annotations.JsType;
  * <br>
  * <h2>Configuration Options</h2>
  * 
- * <table>
+ * <table summary="Configuration Options">
  * <tr>
  * <th>Name</th>
  * <th>Type</th>
@@ -92,13 +92,13 @@ import jsinterop.annotations.JsType;
  * when printing a page. The CSS applied from these media queries may cause
  * charts to need to resize. However, the resize won't happen automatically. To
  * support resizing charts when printing, one needs to hook the onbeforeprint
- * event and manually trigger resizing of each chart. <code><pre>
+ * event and manually trigger resizing of each chart. <code>
  * function beforePrintHandler () { 
  *     for (var id in Chart.instances) {
  *         Chart.instances[id].resize() 
  *     } 
  * }
- * </pre></code>
+ * </code>
  */
 @JsType(isNative = true, name = "Chart", namespace = JsPackage.GLOBAL)
 public class Chart {
@@ -187,6 +187,7 @@ public class Chart {
 	/**
 	 * Returns an HTML string of a legend for that chart. The legend is generated
 	 * from the legendCallback in the options.
+	 * @return Legend as string
 	 */
 	public native String generateLegend();
 
@@ -223,7 +224,7 @@ public class Chart {
 	 * Looks for the element under the event point, then returns all elements from
 	 * that dataset. This is used internally for 'dataset' mode highlighting
 	 * 
-	 * @param event
+	 * @param event Event
 	 * @return Returns an array of elements
 	 */
 	public native ChartDataSet<?> getDatasetAtEvent(Event event);
@@ -236,9 +237,8 @@ public class Chart {
 	 * The data property of the metadata will contain information about each point,
 	 * rectangle, etc. depending on the chart type.
 	 * 
-	 * @param index
-	 *            Index
-	 * @return
+	 * @param index Index
+	 * @return Dataset
 	 */
 	public native ChartDataSet<?> getDatasetMeta(int index);
 }

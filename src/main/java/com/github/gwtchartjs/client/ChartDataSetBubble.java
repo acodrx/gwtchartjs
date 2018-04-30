@@ -15,14 +15,14 @@ public class ChartDataSetBubble<T> extends ChartDataSet<T> {
   /**
    * The fill color under the line. <br>
    * 
-   * @see {@link com.github.gwtchartjs.client.core.Colors}
+   * {@link com.github.gwtchartjs.client.core.Colors}
    */
   public String backgroundColor;
 
   /**
    * The color of the line. <br>
    * 
-   * @see {@link com.github.gwtchartjs.client.core.Colors}
+   * {@link com.github.gwtchartjs.client.core.Colors}
    */
   public String borderColor;
 
@@ -56,7 +56,7 @@ public class ChartDataSetBubble<T> extends ChartDataSet<T> {
   /**
    * Style of the point. String
    * 
-   * @see @link com.github.gwtchartjs.client.core.PointStyles}
+   * {@link com.github.gwtchartjs.client.core.PointStyles}
    */
   public String pointStyle;
 
