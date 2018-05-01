@@ -1,2 +1,2 @@
-# gwtchartjs [![Build Status](https://travis-ci.org/acodrx/gwtchartjs.svg?branch=master)](https://travis-ci.org/acodrx/gwtchartjs)
+# gwtchartjs [![Build Status](https://travis-ci.org/acodrx/gwtchartjs.svg?branch=master)](https://travis-ci.org/acodrx/gwtchartjs) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.acodrx/gwtchartjs/badge.svg?style=flat-square)](https://maven-badges.herokuapp.com/maven-central/com.github.acodrx/gwtchartjs/)
 Simple HTML5 Charts using the canvas element from native chartjs with gwt/jsinterop
